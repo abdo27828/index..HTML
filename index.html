@@ -1,0 +1,75 @@
+<!DOCTYPE html> l=
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of HTML and CSS</title>
+    <style>
+        body {
+            background-color: #4fcdcd; /* خلفية الصفحة */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .paragraph {
+            margin: 20px;
+            padding: 15px;
+            border: 2px solid #000; /* نوع الحدود */
+            border-radius: 5px;
+        }
+
+        .paragraph:nth-child(4) {
+            background-color: #18ce6d88; /* خلفية للبرجراف الأول */
+        }
+
+        .paragraph:nth-child(2) {
+            background-color: #188d18; /* خلفية للبرجراف الثاني */
+        }
+
+        .paragraph:nth-child(3) {
+            background-color: #dd0a3f; /* خلفية للبرجراف الثالث */
+        }
+
+        .videos {
+            display: flex;
+            justify-content: space-around; /* توزيع الفيديوهات بشكل عرضي */
+            margin-top: 30px;
+        }
+
+        .videos video {
+            width: 30%; /* حجم كل فيديو */
+            border: 2px solid #000; /* حدود الفيديو */
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML and CSS language</h1>
+
+    <p class="paragraph">Video about the basics of HTML language.</p>
+    <p class="paragraph">Video about the basics of the CSS language.</p>
+    <p class="paragraph">The most important basics of the CSS language.</p>
+
+    <div class="videos">
+        <video controls>
+            <source src="index/HTML.mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video controls>
+            <source src="index/CSS.mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video controls>
+            <source src="index/اهمCSS.mp4.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
